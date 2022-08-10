@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@100&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+}
+
+
+header{
+padding: 50px;
+background-color: blanchedalmo;
+}
+
+nav ul{
+display: flex;
+flex-direction: row;
+justify-content: space-betw;
+}
+ul li{
+list-style-type: none;
+}
+
+a{
+text-decoration:none;
+padding: 20px;
+color: aliceblue;
+}
+
+img{
+width: 441px;
+margin-top: 10px;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+}
+
+.col{
+padding: -3px;
+}
+
+
+.flex-container{
+/*flex*/
+height: 765px;
+display:flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+
+
+
+
+background-color: rgb(232, 208, 208);
+padding: 30px;
+}
+
+div{
+background-color: rgb(212, 58,192);
+padding: 20px;
+margin: 10px;
+}
+
+
+body{
+background-color:rgb(1, 104, 207);
+}
+
+header{
+background-color: rgb(22, 233, 127);
+padding: 10px;
+}
+
+ul li{
+list-style-type: none;
+}
+
+a{
+text-decoration: none;
+color: rgb(42, 133, 212);
+
+}
+
+h1{
+color: black;
+padding: 40px;
+border: 20px solid black;
+margin: 80px 40px 80px 40px;
+}
+
+
+p{
+color: goldenrod;
+padding: 40px;
+margin-right: 400px;
+margin-top: 60px;
+margin-left: 60px;
+border: 10px groove black;
+}
+
+
+.segundoParrafo{
+border-radius: 50px;
+color: black;
+
+}
+img{
+margin-top: 67px;
+margin-left: 295px;
+border-radius: 1cm;
+border: 33px double rgb(163, 163, 250);
+}
+
+h1{
+   font-style: normal;
+   font-weight: lighter;
+   font-family:'Roboto', sans-serif;
+   font-size: 50px;
+   text-align: center;
+   }
+
+h2{
+   font-style: italic;
+   font-weight: 500;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 25px;
+   text-align: center;
+}
+
+
+p{
+   font-size: 20px;
+   text-align: center;
+   line-height: 1.6;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   word-spacing: 3px;
+   color: blue;
+   font-family: 'DM Sans', sans-serif;
+   background-color: bisque;
+}
+
+.parrafoTercero{
+text-transform:lowercase;
+letter-spacing: 2px;
+color: black;
+text-align: center;
+}
+
+.color{
+background-color:orange ;
+}
+
+
+#parrafoCuarto{
+color: black;
+background-color: white;
+text-align: center;
+}
+
+span{
+color: chartreuse;
+font-size: medium;
+}
+
+section h2{
+color: crimson;
+text-align: center;
+margin-left: 240;
+padding: 50px;
+}
+
+.sectionSecond h2{
+color: darkolivegreen;
+margin-left: 240px;
+text-align: center;
+}
+
+
+
+body{
+background-color: cornsilk;
+background-size: cover;
+}
+
+*div img{
+width: 94px;
+margin-top: 6px;
+}
+
+footer{
+padding: 100px;
+margin-bottom: 0px;
+margin-top: 200px;
+background-color: blueviolet;
+}
+
+.fondoNav{
+   background-color: blue;
+}
+.nav{
+   display: flex;
+   justify-content: end;
+}
+
+div{
+   background-color: rgb(255, 166, 0);
+
+}
+.box{
+   border-radius: 6px;
+   height: 50px;
+   width: 80px;
+   margin: 60px auto;
+}
+
+body{
+   background-color: lightskyblue;
+}
+
+.box1{
+   background-color: mediumorchid;
+}
+
+.box2{
+   background-color: rgb(21, 199, 74);
+/*transition: all;
+transition-duration: 3s;*/
+   transition: all 3s ease;
+}
+
+.box:hover{
+   transform: scale(4);
+}
+
+.circle1, .circle2, .circle3, .circle4, .circle5{
+   border-radius: 50px;
+   height: 40px;
+   width: 40px;
+   margin: 20px;
+}
+
+.circle1{
+   background-color: cornflowerblue;
+   transition: all 3s ease;
+}
+
+.circle2{
+   background-color: crimson;
+   transition: all 3s ease-in;
+}
+
+.circle3{
+   background-color: blue;
+   transition: all 3s ease-in-out;
+}
+
+.circle4{
+   background-color: blueviolet;
+   transition: all 3s ease-out;
+}
+
+.circle5{
+   background-color: darkorange;
+   transition: all 3s step-end;
+}
+
+.container-circle:hover.circle1,
+.container-circle:hover.circle2,
+.container-circle:hover.circle3,
+.container-circle:hover.circle4,
+.container-circle:hover.circle5{
+   transform: translate(300px, 300px);
+}
+
+.square1, .square2{
+   border-radius: 8px;
+   height: 200px;
+   width: 200px;
+   margin: 200px;
+   position: absolute;
+}
+
+.square1{
+   background-color: teal;
+}
+.square2{
+   background-color: aqua;
+   transition: all 2s;
+}
+
+.square2:hover{
+   transform: translate(40px, 40px);
+}
